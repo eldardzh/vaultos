@@ -1,18 +1,13 @@
+<!-- animated-project-banner -->
+<p align="center"><picture><source media="(max-width: 600px)" srcset="assets/project-banner-mobile.svg"><img src="assets/project-banner.svg" width="100%" alt="CryptoSafe / VaultOS — self-custody, signing and recovery"></picture></p>
+<!-- /animated-project-banner -->
+
 <div align="center">
 
-```
-   ██╗   ██╗ █████╗ ██╗   ██╗██╗     ████████╗
-   ██║   ██║██╔══██╗██║   ██║██║     ╚══██╔══╝
-   ██║   ██║███████║██║   ██║██║        ██║
-   ╚██╗ ██╔╝██╔══██║██║   ██║██║        ██║
-    ╚████╔╝ ██║  ██║╚██████╔╝███████╗   ██║
-     ╚═══╝  ╚═╝  ╚═╝ ╚═════╝ ╚══════╝   ╚═╝
-```
-
-# VaultOS — Self-Custody Multisig for Mac
+# CryptoSafe / VaultOS — Self-Custody Multisig for Mac
 
 #### Two keys out of three move the money. One key cannot.
-#### Audited Safe contracts, hardware keys, recovery without the app.
+#### Safe multisig contracts, hardware keys, recovery without the app.
 
 [![Status](https://img.shields.io/badge/status-pre--release-b9ff66?style=for-the-badge&labelColor=060607)](#)
 [![Role](https://img.shields.io/badge/role-Solo%20Engineer-b9ff66?style=for-the-badge&labelColor=060607)](#)
@@ -30,6 +25,9 @@
 ---
 
 ## Overview
+
+CryptoSafe is my self-custody product, currently named **VaultOS** in the app.
+It is in development; this page describes the architecture, not a public download.
 
 VaultOS creates and operates multisig vaults from a local desktop app. The first
 release covers BNB Chain, Ethereum, Polygon, Arbitrum, Base and OP Mainnet, with
